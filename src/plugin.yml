@@ -1,0 +1,15 @@
+name: BackpacksPlus
+version: 1.0
+author: Wylarel
+main: com.wylarel.backpacksplus.Main
+description: Advanced Backpacks
+api-version: 1.15
+
+depend: []
+
+commands:
+  backpack:
+    description: Open your backpack
+    permission: backpackcommand.use
+    usage: /backpack
+    aliases: [bp]
