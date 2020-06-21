@@ -1,4 +1,4 @@
-package com.wylarel.backpacksplus;
+package com.wylarel.simplebackpacks;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,7 +6,7 @@ import java.util.Map;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.wylarel.backpacksplus.commands.BackPackCommand;
+import com.wylarel.simplebackpacks.commands.BackPackCommand;
 
 public class Main extends JavaPlugin {
     public Map <String, Inventory> backpacks = new HashMap<String, Inventory>();
@@ -14,7 +14,7 @@ public class Main extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		saveDefaultConfig();
-		System.out.println("Backpacks+ started");
+		System.out.println("Simple Backpacks started");
 		getCommand("backpack").setExecutor(new BackPackCommand(this));
 		//getServer().getPluginManager().registerEvents(new ExampleListener(this), this);
 		BackpackActions.main = this;
@@ -25,7 +25,7 @@ public class Main extends JavaPlugin {
 	
 	@Override
 	public void onDisable() {
-		System.out.println("Backpacks+ stopped");
+		System.out.println("Simple Backpacks stopped");
 		FileManager.saveBackpacksContent(backpacks);
 	}
 }

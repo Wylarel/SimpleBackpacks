@@ -1,8 +1,8 @@
-name: BackpacksPlus
-version: 1.0
+name: SimpleBackpacks
+version: 1.1
 author: Wylarel
-main: com.wylarel.backpacksplus.Main
-description: Advanced Backpacks
+main: com.wylarel.simplebackpacks.Main
+description: A Minecraft plugin that adds simple backpacks to vanilla Minecraft
 api-version: 1.15
 
 depend: []

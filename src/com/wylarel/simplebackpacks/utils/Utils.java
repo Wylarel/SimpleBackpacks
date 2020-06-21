@@ -1,4 +1,4 @@
-package com.wylarel.backpacksplus.utils;
+package com.wylarel.simplebackpacks.utils;
 
 import org.bukkit.ChatColor;
 

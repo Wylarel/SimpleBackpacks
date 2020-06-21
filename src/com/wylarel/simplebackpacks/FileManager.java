@@ -1,4 +1,4 @@
-package com.wylarel.backpacksplus;
+package com.wylarel.simplebackpacks;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.wylarel.backpacksplus;
+package com.wylarel.simplebackpacks;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Sound;
